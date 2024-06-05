@@ -1,22 +1,9 @@
 # Work Log
 
-## GROUP MEMBER 1
+## Sudipta Chakraborty
 
-### date x
+### 6/3/24 - 6/4/24
 
-info
-
-### date y
-
-info
+Did premliminary research on the topic and possible implementations. Settled on creating an implementation of the Solitaire Cipher, with an encoder, decoder, and cracker to accompany it.
 
 
-## GROUP MEMBER 2
-
-### date x
-
-info
-
-### date y
-
-info
