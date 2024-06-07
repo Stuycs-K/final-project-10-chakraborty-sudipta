@@ -44,10 +44,16 @@ def move_b_joker(deck):
 
     return deck
 
-# TODO: first_joker and second_joker should NOT be dependent on which joker it is!
 def triple_cut(deck):
-    first_joker = deck.index(JOKER_A)
-    second_joker = deck.index(JOKER_B)
+    joker_a = deck.index(JOKER_A)
+    joker_b = deck.index(JOKER_B)
+
+    if joker_a > joker_b:
+        first_joker = joker_b
+        second_joker = joker_a
+    else:
+        first_joker = joker_a
+        second_joker = joker_b
 
     # From beginning to joker A, excluding joker
     above = deck[:first_joker]
