@@ -7,4 +7,4 @@ if __name__ == "__main__":
     message = sys.argv[1]
     key = sys.argv[2]
 
-    print(encode(message, key, decode=True))
+    print(encoder.encode(message, key, decode=True))
